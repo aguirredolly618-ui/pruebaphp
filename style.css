@@ -5,8 +5,7 @@
 
 body{
 
-    background-color: pink 
-    ;
+    background-color: pink;
 }
 #container{
     width: 80%;
@@ -17,7 +16,41 @@ body{
 #header{
     height: 140px;
     background-color: paleturquoise;
-    color: blanchedalmond
-    text-align: center;
-    like-height: 100px; 
+    color: black;
+    text-align: center; 
+    line-height: 100px;
+    
 } 
+#menu { 
+
+
+background-color: midnightblue;
+color: white;
+height: 50px;
+border-bottom: 4px solid rgb(199, 177, 135);
+}
+
+#menu ul{
+    list-style: none;
+    text-align: none;
+    margin: 0px auto;
+    margin-left: 35px;
+}
+
+#menu ul li{
+
+   line-height: 70px;
+   float: left;
+   border-right:  1px solid white;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 12px;
+    padding-left: 12px;
+}
+
+#menu a:hover{
+    background: rgb(146, 119, 119);
+}
