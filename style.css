@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-color: pink 
+    ;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#header{
+    height: 140px;
+    background-color: paleturquoise;
+    color: blanchedalmond
+    text-align: center;
+    like-height: 100px; 
+} 
