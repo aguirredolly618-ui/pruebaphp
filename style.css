@@ -5,7 +5,7 @@
 
 body{
 
-    background-color: pink;
+    background-color: rgb(255, 243, 212);
 }
 #container{
     width: 80%;
@@ -15,8 +15,8 @@ body{
 
 #header{
     height: 140px;
-    background-color: paleturquoise;
-    color: black;
+    background-color: rgb(219, 248, 248);
+    color: blanchedalmond;
     text-align: center; 
     line-height: 100px;
     
@@ -37,7 +37,7 @@ body{
 #menu { 
 
 
-background-color: midnightblue;
+background-color: rgb(224, 231, 214);
 color: white;
 height: 50px;
 border-bottom: 4px solid rgb(199, 177, 135);
@@ -67,3 +67,14 @@ border-bottom: 4px solid rgb(199, 177, 135);
 #menu a:hover{
     background: rgb(146, 119, 119);
 }
+
+#content{  
+    margin: 0px auto;
+    overflow: hidden;
+    background: papayawhip;
+ }
+
+ #lateral{
+    width: 20%;
+    border: 1px solid black;
+ }
