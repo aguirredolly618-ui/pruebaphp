@@ -5,19 +5,19 @@
 
 body{
 
-    background-color: rgb(255, 243, 212);
+    background-color: rgb(185, 166, 231);
 }
 #container{
     width: 80%;
     margin: 39px auto;
-    border: 1px solid black;
-    background: white;
+    border: 1px solid rgb(206, 190, 228);
+    background: rgb(152, 158, 219);
 }
 
 #header{
     height: 110px;
-    background-color: rgb(219, 248, 248);
-    color: blanchedalmond;
+    background-color: rgb(174, 167, 204);
+    color: rgb(227, 205, 255);
     text-align: center; 
     line-height: 100px;
     
@@ -37,10 +37,10 @@ body{
 #menu { 
 
 clear: both;
-background-color: rgb(224, 231, 214);
+background-color: rgb(175, 151, 204);
 color: white;
 height: 55px;
-border-bottom: 4px solid rgb(199, 177, 135);
+border-bottom: 4px solid rgb(203, 171, 211);
 }
 
 #menu ul {
@@ -67,13 +67,13 @@ border-bottom: 4px solid rgb(199, 177, 135);
 }
 
 #menu a:hover{
-    background: rgb(146, 119, 119);
+    background: rgb(211, 170, 189);
 }
 
 #content{  
     margin: 0px auto;
     overflow: hidden;
-    background: papayawhip;
+    background: rgb(229, 198, 255);
  }
 
 /* barra lateral */ 
@@ -101,7 +101,8 @@ border-bottom: 4px solid rgb(199, 177, 135);
    color: rgb(80, 74, 63);
    width: 100%;
    text-align: center;
-   padding-top: 5px;
+   align-items: center;
+   padding-top: 10px;
    padding-bottom: 15px;
    font-size: 16px;
    font-weight: bold;
@@ -109,9 +110,91 @@ border-bottom: 4px solid rgb(199, 177, 135);
     border-bottom: 1px solid gray;
  }
 
+ input[type="text"],
+ input[type="email"],
+input[type="password"]{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px rgba(94, 206, 159, 0.05);
+    background: white;
+    padding: 2px;
+    transition: all 300ms;
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+
+    border: 1px solid rgb(200, 195, 230);
+    color: rgb(180, 174, 214);
+
+}
+
+input[type="submit"],
+input[type="button"],
+.button{
+    display: block;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    background: rgb(91, 75, 182);
+    color: white;
+    border: 1px solid rgb(91, 75, 182);
+    cursor: pointer;
+
+   }
+
+
+
  #central{
     width: 80%;
     min-height: 650px;
     float: right;
+    /*boder: 1px solid green;*/
     border: 1px solid blue;
+    border-left: 1px solid rgb(206, 190, 228);
+    box-shadow: -5px -1px 5px rgba(94, 206, 159, 0.05);
+    padding: 5px;
+    margin-top: 20px;
  }
+
+ #central h1, #central h2{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    padding-top: 0px;
+ }
+
+ .product{
+
+    width: 30%;
+    float: left;
+    text-align: center;
+   margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+ }
+
+
+ .product img{
+        height: 150px;
+        margin-bottom: 10px
+    }
+ .product a{
+color: rgb(80, 74, 63);
+text-decoration: none;
+ }
+
+    .product a:hover{
+        color: rgb(91, 75, 182);
+        
+    }
