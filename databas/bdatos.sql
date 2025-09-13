@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS ferrarii;
-USE ferrarii;
+CREATE DATABASE IF NOT EXISTS armas;
+USE armas;
 
 CREATE TABLE IF NOT EXISTS t_usuarios (
     id_usuario INT(11) AUTO_INCREMENT NOT NULL,
