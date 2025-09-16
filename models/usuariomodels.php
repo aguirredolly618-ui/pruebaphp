@@ -3,7 +3,7 @@
 class usuario{
     public $db;
 
-    public function __construct() {
+    public function _construct() {
         $this->db =  database::conectar();
 }
 
@@ -74,8 +74,10 @@ function setImagen($imagen){
     return $this->imagen=$imagen;
 }
 
+public function conseguirTodos(){
+echo "IMPRIMIENDO TODOS LOS USARIOS...";
 
-
+}
 
 
 
