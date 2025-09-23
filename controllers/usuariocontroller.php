@@ -1,15 +1,26 @@
 <?php
 
-//Aca mostramos todas acciones que puede hacer un controlador//
-class UsuarioControlLer{
+//Aca mostramos todas las acciones que puede hacer un controlador
 
-    public function mostrarTodos(){
-    require_once 'models/Usuariomodels.php';
+class UsuarioController {
 
-    $usuario = new usuario();
+    public function mostrartodos(){
 
-    $todos_los_usuarios = $usuario ->conseguirTodos();
+require_once 'models/usuariomodels.php';
 
-    require_once 'views/usuario/mostrar-todosphp';
+$usuario = new usuario();
+
+$todos_los_usuarios = $usuario->conseguirTodos();
+
+require_once 'views/usuario/mostrar-todos.php';
+
+
 }
-}  
+
+    public function crear(){
+
+        require_once 'views/usuario/crear.php';
+
+        require_once 'models/usuariomodels.php';
+    }
+}
